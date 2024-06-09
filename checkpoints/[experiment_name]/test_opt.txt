@@ -1,0 +1,43 @@
+----------------- Options ---------------
+                      G_J: resnet_9blocks
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: ./datasets/test               	[default: ./datasets/dusty]
+             dataset_mode: single                        	[default: unpaired]
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: 60                            	[default: 63]
+                     eval: False                         
+                  gpu_ids: 0                             
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+              method_name: [method_name]                 	[default: geta]
+                    model: Dedust                        	[default: refined_DCP]
+               n_layers_D: 3                             
+                     name: [experiment_name]             	[default: Dusty]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          
+                  no_flip: False                         
+                     norm: instance                      
+                    ntest: inf                           
+                 num_test: 201                           
+              num_threads: 0                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: none                          	[default: scale_min_and_crop]
+              results_dir: ./results/                    
+               save_image: True                          	[default: False]
+           serial_batches: False                         
+                   suffix:                               
+                  verbose: False                         
+----------------- End -------------------
